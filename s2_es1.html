@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        
+        
+    
+        
+        .card{
+            width: 25%;
+            aspect-ratio: 1/1.5;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            
+        }
+        .card img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .sfumatura{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgb(161,161,171);
+            background: linear-gradient(180deg, rgba(161,161,171,0) 0%, rgba(15,15,16,0.7820378151260504) 100%);
+            display: none;
+        }
+        .card:hover .sfumatura{
+            display:block ;
+        }
+        .button1{
+            position: absolute;
+            top: 85%;
+            left: 75%;
+            width: 20%;
+            display: none;
+            border-radius: 10px;
+            background-color: rgb(244, 248, 244);
+        }
+        h1{
+            color: rgb(255, 250, 250);
+            
+        }
+        
+        .card:hover .button1{
+            display: block;
+        }
+        .button2{
+            position: absolute;
+            top: 85%;
+            left: 10%;
+            width: 20%;
+            border-radius: 10px;
+            background-color: rgb(241, 241, 248);
+            display: none;
+        }
+        .card:hover .button2{
+            display: block;
+        
+        }
+        .button3{
+            position: absolute;
+            top: 5%;
+            left: 60%;
+            width: 30%;
+            border-radius: 30px;
+            background-color: rgb(231, 7, 7);
+            display: none;
+        }
+        .card:hover .button3{
+            display: block;
+        }
+        a:hover{
+            color: rgb(6, 6, 14);
+        }
+        .button4{
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            width: 20%;
+            border-radius: 10px;
+            background-color: rgb(241, 241, 248);
+            display: none;
+        }
+        .card:hover .button4{
+            display:block ;
+        }
+        button:hover{
+            background-color: gray;
+        }
+        
+        
+        
+            
+        
+        
+        
+
+        
+        
+            
+        
+
+
+
+
+</style>
+
+</head>
+
+<body>
+    <div class="card">
+       
+        <div class="sfumatura"></div>
+        <img src="https://i.pinimg.com/564x/a0/ac/7a/a0ac7a07be50b24c995b3266104f2ac4.jpg" >
+        <div>
+            <button class="button1"><img src="puntini.png"></button>
+            <button class="button2"> <img src="iconaupload.png" ></button> 
+            <button class="button3"><h1>SAVE</h1></button>
+            <button class="button4"> <img src="frecciadiagonale.png"></button>
+        </div>  
+    </div>
+</body>
+</html>
